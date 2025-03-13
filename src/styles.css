@@ -42,7 +42,7 @@ nav {
   width: 100%; /* Ensures nav spans full width of header */
 }
 
-#header-title {
+.header-title {
   font-family: "Rubik Vinyl";
   color: yellow;
   padding-left: 50px;
@@ -59,14 +59,14 @@ header button {
   padding: 20px;
 }
 
-#button-container {
+.button-container {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-right: 50px;
 }
 
-#button-container button:last-child {
+.button-container button:last-child {
   padding-right: 0;
 }
 
@@ -76,7 +76,7 @@ header button {
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
-#text-container {
+.text-container {
   font-family: "Rubik Vinyl";
   color: white;
   font-size: 48px;
@@ -87,6 +87,6 @@ header button {
   height: 100%;
 }
 
-#text-container p {
+.text-container p {
   margin: 0px;
 }

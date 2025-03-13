@@ -1,1 +1,3 @@
-console.log("Test");
+import { loadMainPage } from "./pageloader.js";
+
+loadMainPage();
